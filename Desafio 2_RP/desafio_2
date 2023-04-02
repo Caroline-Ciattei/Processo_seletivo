@@ -1,0 +1,44 @@
+
+def fibonacci(n):
+    
+    if n == 0:
+        return 0
+    elif n == 1:
+        return 1
+    else:
+        return fibonacci(n-1) + fibonacci(n-2)
+
+def verifica_fibonacci(numero):
+   
+    i = 0
+    while fibonacci(i) <= numero:
+        if fibonacci(i) == numero:
+            return True
+        i += 1
+    return False
+
+num = int(input("Digite um número: "))
+if verifica_fibonacci(num):
+    print(f"{num} pertence à sequência de Fibonacci.")
+else:
+    print(f"{num} não pertence à sequência de Fibonacci.")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

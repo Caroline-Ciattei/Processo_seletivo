@@ -1,0 +1,25 @@
+carro - v = 110km/h
+caminhão - v = 80/h
+
+a) Considerar a distância de 100km entre a cidade de Ribeirão Preto <-> Franca.
+
+b) Considerar 2 pedágios como obstáculo e que o caminhão leva 5 minutos a mais para passar em cada um deles e o carro possui tag de pedágio (Sem Parar)
+
+c) Explique como chegou no resultado.
+
+v = Deslocamento / velocidade média
+
+tempo de viagem sem pedágio:
+100 / 80 = 1,25 horas
+
+tempo adicional dos pedágios:
+
+2 x 5 = 10 minutos
+
+tempo total de viagem = tempo de viagem sem pedágio + tempo adicional dos pedágios
+
+1,25 horas + 10 minutos 
+10 / 60 = 0,167 horas
+1,25 + 0,167 horas = 1,417 horas
+
+Portanto, considerando os dois pedágios como obstáculos, o tempo total de viagem entre Ribeirão Preto e Franca para um caminhão será de aproximadamente 1 hora e 25 minutos (ou 1,417 horas), enquanto que um carro com tag de pedágio (Sem Parar) poderá fazer a viagem em 1 hora e 15 minutos (ou 1,25 horas). O carro está mais próximo de Ribeirão Preto.
